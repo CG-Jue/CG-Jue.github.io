@@ -1,0 +1,29 @@
+site_name: QLNU-Wiki-demo
+# 主题配置 https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#configuration
+theme:
+  name: material
+  features:
+    # 即时加载
+    - navigation.instant
+    # 进度指示器
+    - navigation.instant.progress
+    # 导航栏
+    - navigation.tabs
+    
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+
+    - navigation.sections
+    - navigation.expand
+
+    - navigation.path
+
+    - navigation.top
+
+    - search.suggest
+
+    # - search.highlight
+
+    - search.share
+    # 阅读到一定深度后，自动隐藏标题
+    - header.autohide
