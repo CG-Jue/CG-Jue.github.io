@@ -3,14 +3,16 @@ name: Deploy to Github Pages
 on:
   push:
     branches:
-      - master
-      - main
+      - master    
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '20'
       - uses: actions/setup-python@v4
         with:
           python-version: 3.x
