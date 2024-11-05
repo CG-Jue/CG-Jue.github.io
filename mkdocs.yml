@@ -1,4 +1,4 @@
-site_name: QLNU-Wiki-demo
+site_name: QLNU-Sec-Team-Wiki
 # 主题配置 https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#configuration
 theme:
   name: material
